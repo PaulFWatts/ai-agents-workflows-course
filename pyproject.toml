@@ -1,10 +1,11 @@
 [project]
 name = "ai-agents-workflows-course"
 version = "0.1.0"
-description = "Add your description here"
+description = "Understand and build agentic systems and AI-powered applications to automate tasks and workflows."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "openai>=1.93.0",
     "python-dotenv>=1.1.1",
     "requests>=2.32.4",
 ]
